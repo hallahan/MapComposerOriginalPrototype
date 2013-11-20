@@ -5,7 +5,7 @@ These are simple instructions on how to get going with git in Netbeans.
 0. Sign up for an account on Github. Login. Fork the main MapComposer Github project.
 ![alt text](https://raw.github.com/hallahan/MapComposer/master/docs/github-setup-img/0-fork.png)
 
-1. In Netbeans, select Team > Git > Clone...
+1. In Netbeans, select Team > Git > Clone...<br/>
 ![alt text](https://raw.github.com/hallahan/MapComposer/master/docs/github-setup-img/1-clone.png)
 
 2. Clone your forked copy of the MapComposer project on your own Github account.
