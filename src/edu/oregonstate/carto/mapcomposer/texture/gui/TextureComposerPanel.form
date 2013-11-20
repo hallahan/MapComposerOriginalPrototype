@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel1" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel5" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel4" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel2" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="stretchLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="colorButton1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="colorButton2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="scaleSlider" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="turbulenceSlider" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="angleSlider" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="stretchSlider" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="amountSlider" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="18" pref="70" max="32767" attributes="0"/>
+                      <Component id="textureLabel" min="-2" pref="256" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="saveTextureButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="loadTextureButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="generateButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="closeButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Component id="jLabel1" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="colorButton1" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel6" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="colorButton2" alignment="2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Component id="scaleSlider" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel5" alignment="2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Component id="turbulenceSlider" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel4" alignment="2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Component id="jLabel2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="angleSlider" alignment="2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Component id="stretchLabel" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="stretchSlider" alignment="2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Component id="jLabel3" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="amountSlider" alignment="2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      <Component id="textureLabel" min="-2" pref="256" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="2" attributes="0">
+                  <Component id="generateButton" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="saveTextureButton" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="closeButton" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="loadTextureButton" alignment="2" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="generateButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Generate Tiled Texture"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="generateButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="textureLabel">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="textureLabel"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSlider" name="stretchSlider">
+      <Properties>
+        <Property name="majorTickSpacing" type="int" value="20"/>
+        <Property name="minorTickSpacing" type="int" value="20"/>
+        <Property name="paintLabels" type="boolean" value="true"/>
+        <Property name="paintTicks" type="boolean" value="true"/>
+        <Property name="value" type="int" value="20"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Default Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="sliderStateChange"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="stretchLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Stretch"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSlider" name="angleSlider">
+      <Properties>
+        <Property name="majorTickSpacing" type="int" value="90"/>
+        <Property name="maximum" type="int" value="360"/>
+        <Property name="minorTickSpacing" type="int" value="15"/>
+        <Property name="paintLabels" type="boolean" value="true"/>
+        <Property name="paintTicks" type="boolean" value="true"/>
+        <Property name="value" type="int" value="45"/>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="sliderStateChange"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Angle"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSlider" name="amountSlider">
+      <Properties>
+        <Property name="majorTickSpacing" type="int" value="20"/>
+        <Property name="minorTickSpacing" type="int" value="20"/>
+        <Property name="paintLabels" type="boolean" value="true"/>
+        <Property name="paintTicks" type="boolean" value="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="sliderStateChange"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Amount"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSlider" name="turbulenceSlider">
+      <Properties>
+        <Property name="majorTickSpacing" type="int" value="1"/>
+        <Property name="maximum" type="int" value="6"/>
+        <Property name="minorTickSpacing" type="int" value="1"/>
+        <Property name="paintLabels" type="boolean" value="true"/>
+        <Property name="paintTicks" type="boolean" value="true"/>
+        <Property name="snapToTicks" type="boolean" value="true"/>
+        <Property name="value" type="int" value="1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="sliderStateChange"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Turbulence"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSlider" name="scaleSlider">
+      <Properties>
+        <Property name="majorTickSpacing" type="int" value="100"/>
+        <Property name="maximum" type="int" value="200"/>
+        <Property name="minorTickSpacing" type="int" value="10"/>
+        <Property name="paintLabels" type="boolean" value="true"/>
+        <Property name="paintTicks" type="boolean" value="true"/>
+        <Property name="value" type="int" value="32"/>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="sliderStateChange"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Scale"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="closeButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Close"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="closeButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="saveTextureButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save XML"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveTextureButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="ika.gui.ColorButton" name="colorButton1">
+      <Properties>
+        <Property name="color" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="66" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="colorButton1stateChange"/>
+      </Events>
+    </Component>
+    <Component class="ika.gui.ColorButton" name="colorButton2">
+      <Properties>
+        <Property name="color" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="cc" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="colorButton2stateChange"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Color 1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Color 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="loadTextureButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Load XML"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="loadTextureButtonActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
