@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Map>
+    <imageWidth>1000</imageWidth>
+    <imageHeight>1000</imageHeight>
+    <Layer>
+        <visible>true</visible>
+        <nameLayer>Layer</nameLayer>
+        <imageName>buildings.jpg</imageName>
+        <maskName>buildings.jpg</maskName>
+        <blending>0</blending>
+        <opacity>1.0</opacity>
+        <curveURL></curveURL>
+        <textureScale>1.0</textureScale>
+        <invertMask>false</invertMask>
+        <maskBlur>0.0</maskBlur>
+    </Layer>
+</Map>
