@@ -36,6 +36,16 @@ This will provide the groundwork for creating an HTML5 application that allows
 the user to define and view a pseudo-natural tile set dynamically within the
 browser.
 
+The REST API that define the tiles to be generated will be inspired from the
+general architecture of [MapStack created by Stamen Design](http://mapstack.stamen.com/). 
+
+Here is an example of an URL that gets a dynamically generated tile with parameters
+from Mapstack:
+
+```
+http://c.sm.mapstack.stamen.com/((toner,$00d5ff[hsl-color])[multiply],(watercolor,parks[destination-in]),(naip,mapbox-water[destination-in]))/11/327/791.png
+```
+
 ### Phase 3
 
 I will create an HTML5 application that provides similar functionality seen in
@@ -56,11 +66,38 @@ Phase 3: Wed Jan 1 2014
 ### Input
 
 **Binary masks** will continue to be used to define the pixels that a corresponding
-layer will be rendered to. The pixels in the mask PNGS will function as a boolean
+layer will be rendered to. The pixels in the mask PNGs will function as a boolean
 flag. Black is on, white is off. 
 
 ## Code Structure
 
+todo
+
 ## UML
 
+todo
+
 ## Potential Difficulties
+
+### Phase 1
+
+Because tiles will be received via http, it may take some time to receive the tile
+being requested. To address this issue, the rendering for a given tile should be
+coupled to its own thread. Currently, the each tile will block the requests for all
+of the rest, and this may produce an extremely slow application without doing this
+in a properly multi-threaded design.
+
+Setting up TileMill with your own PostGIS database using OpenStreetMap data is not
+a trivial task, so I will provide Vagrant provisioning script that will set up a
+virtual machine that has all of this set up. To avoid coupling MapComposer to this
+complexity, TileMill will read tiles via http, and the application will be set to
+read from the proper url to get tiles from the given TileMill server. Also, this
+de-coupled architecture will allow the user to install MapComposer without TileMill
+and instead receive masks from a remote http server.
+
+### Phase 2
+
+This will be fairly straight-forward. The main challenge will be learning how to
+use Java Servlets.
+
+### Phase 3
