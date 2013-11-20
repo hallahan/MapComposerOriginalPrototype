@@ -69,6 +69,21 @@ Phase 3: Wed Jan 1 2014
 layer will be rendered to. The pixels in the mask PNGs will function as a boolean
 flag. Black is on, white is off. 
 
+Layers will also consume **imagery** from any http WMTS (Web Map Tile Service). This
+will adhere to the standard http schema of:
+
+```
+http://someurl.com/params/{z}/{x}/{y}.png
+```
+
+### Output
+
+The user can continue to render tiles to the **file system** in a batch mode. The new Java
+Servlet functionality will render a given tile on the fly based on the paremeters of
+the **RESTful URL**.
+
+Also, the rendered product can be a single PNG image for static usage.
+
 ## Code Structure
 
 todo
@@ -101,3 +116,10 @@ This will be fairly straight-forward. The main challenge will be learning how to
 use Java Servlets.
 
 ### Phase 3
+
+This part will be a completely client-side development effort. Because the tiles
+with the applicable parameters will be through a REST API, the server and the HTML5
+application are not coupled together. The challenges will be less of a technical
+nature and more of a design and HCI nature. The main challenge will be to construct
+an intuitive interface for a user without knowledge of the architecture of the
+project.
